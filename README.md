@@ -1,23 +1,31 @@
 # Controlling-A-Robotic-Arm-Using-Handwritten-Digit-Recognition-Software
 Controlling A Robotic Arm Using Handwritten Digit Recognition Software
 
-With the increasing need of repetitive tasks in the manufacturing industry, robotic automation is becoming a necessity. In the steel industry, workers become less efficient over time, causing interruptions during assembly. Robotic automation is capable of operating at highest efficiency therefore increasing productivity in the steel industry. The robot will be able to pick up and drop metallic object with the help of the electromagnet present on the robotic arm. The handling of the objects will be triggered by the hand gestures from the user. The image to be processed will be captured by an external camera. This robot is built as a prototype for the steel industry. 
+Abstract:
 
-Keywords: Gesture Recognition, OpenCV, Embedded System Robotic Arm Control, Embedded C.
+Repetitive tasks in the manufacturing industry is becoming more and more commonplace. The ability to write down a number set and operate the robot using that number set could increase the productivity in the manufacturing industry. For this purpose, our team came up with a robotic application which uses MNIST data set provided by Tensorflow to employ deep learning to identify handwritten digits. The system is equipped with a robotic arm, where an electromagnet is placed on top of the robotic arm. The movement of the robotic arm is triggered via the recognition of handwritten digits using the MNIST data set. The real time image is captured via an external webcam. This robot was designed as a prototype to reduce repetitive tasks conducted by humans. 
+
+Keywords: MNIST Handwritten Digit Recognition, Deep Learning, Embedded System Robotic Arm Control
+
 
 Kaynakça
-E. B. Mathew, D. Khanduja, B. Sapra, B. Bhushan, Robotic arm control through human arm movement detection using potentiometers, International Conference on Recent Developments in Control, Automation and Power Engineering, 2015.
-B. İşçimen, H. Atasoy, Y. Kutlu, S. Yıldırım, E. Yıldırım, Smart robot arm motion using computer vision, Elektronika Ir Elektrotechnika, ISSN 1392-1215.
-M. A. Jayaram, H. Fleyeh, Convex hulls in image processing: a scoping review, American Journal of Intelligent Systems, 2016.
+Y. Lecun, C. Cortes, C.J.C. Burges, MNIST handwritten digit database, http://yann.lecun.com/exdb/mnist/
+K. Sato, N. Shimoda, Build your own machine-learningpowered robot arm using tensorflow and google cloud Google Cloud blog, 2017.
+Keras documentation, https://keras.io/
+TensorFlow, https://www.tensorflow.org/
+A. Elfasakhany, E. Yanez, K. Baylon, R. Salgado, Design and development of a competitive low-cost robot arm with four degrees of freedom, Modern Mechanical Engineering, pp.47-55.
 OpenCV library document, https://opencv.org/
-Structural Analysis and Shape Descriptors, OpenCV “2.4.13.7 documentation”. https://docs.opencv.org
-A. Dhawan, A. Bhat, S. Sharma, H. K. Kaura, Automated robot with object recognition and handling features, International Journal of Electronics and Computer Science Engineering, ISSN 2277-1956/V2N3-861-873.
-Abhishek Chavan, Abhishek Bhuskute, Anmol Jain, Dynamics of robotic arm, International Journal of Computer Applications (0975 – 8887), 2014.
-C. Manresa, J. Varona, R. Mas, F. J. Perales, ‘‘Hand tracking and gesture recognition for human-computer interaction’’, Electronic Letters on Computer Vision and Image Analysis 5(3):96-104, 2005.
-P. Xu, A real-time hand gesture recognition and humancomputer interaction system, arXiv:1704.07296v1 [cs.CV] 24 Apr 2017.
-A. Soetedjo, I.K. Somawirata, A. Irawan, ‘‘Human arm movement detection using low-cost sensors for controlling robotic arm’’, Journal of Telecommunication, Electronic and Computer Engineering, e-ISSN: 2289-8131 Vol. 10 No. 2-3.
-A. Alam, T. Rana, M. Hashemy, An autonomous detective robotic arm, International Conference on Mechanical, Industrial and Materials Engineering 2017.
+K. Simonyan, A. Zisserman, Very deep convolutional networks for large-scale image recognition. Arxiv - Computer Vision and Pattern Recognition .
+S. Raschka, V. Mirajalili, Python machine learning (pp. 341-385).
+P. Bezak, P. Bozek, Y. Nikitin, Advanced robotic grasping system using deep learning, Procedia Engineering, 96, pp. 10-20, 2014.
+A. Dhawan, A. Bhat, S. Sharma, H. K. Kaura, Automated robot with object recognition and handling features, International Journal of Electronics and Computer Science Engineering, ISSN- 2277-1956.
+E. B. Mathew, D. Khanduja, B. Sapra, B. Bhushan, Robotic arm control through human arm movement detection using potentiometers. 2015 International Conference on Recent Developments in Control, Automation and Power Engineering (RDCAPE), 2015.
+B.Iscimen, H. Atasoy, Y. Kutlu, S. Yildirim, E. Yildirim, Smart robot arm motion using computer vision, 2015.
+M.A. Jayaram, H. Fleyeh, Convex Hulls in Image Processing, A Scoping Review, American Journal of Intelligent Systems, 2016.
+N. Rai, B. Rai, P. Rai, Computer vision approach for controlling educational robotic arm based on object properties, 2nd International Conference on Emerging Technology Trends in Electronics, Communication and Networking. 2014
+T. S. Tonbul, M. Sarıtas, Beş eksenli bir edubot robot kolunda ters kinematic hesaplamalar ve yörünge planlaması. J. Fac. Eng. Arch. Gazi Univ. Vol 18, No 1, 145-167, 2013
+A. B. Rehiara, Kinematics of adeptthree robot arm, Robot Arms, ISBN: 978-953-307-160-2, 2011.
 
 
 International Journal of Engineering Technologies, Yıl 2019, Cilt 5 , Sayı 2, Sayfalar 59 - 63
-Web site: https://dergipark.org.tr/tr/pub/ijet/issue/45163/462339 
+Web site: https://dergipark.org.tr/tr/pub/ijet/issue/44104/462378
